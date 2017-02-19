@@ -13,13 +13,13 @@ render: function (){
         <ul className="menu">
           <li className="menu-text">Weather App</li>
           <li>
-            <IndexLink to="/" activeClasName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
+            <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
           </li>
           <li>
-            <Link to="/about" activeClasName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
+            <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
           </li>
           <li>
-            <Link to="/examples" activeClasName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
+            <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
           </li>
         </ul>
       </div>
